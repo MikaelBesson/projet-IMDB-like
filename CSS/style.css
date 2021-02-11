@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    width: 100%;
+    background-color: darkgray;
+}
+
+header {
+    border: 1px solid black;
+    background-color: black;
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 1%;
+}
+#barreRecherche {
+    width: 40%;
+}
+
+#menu, #signIt {
+    padding: 1%;
+    color: chartreuse;
+    font-size: large;
+    text-decoration: none;
+}
+
+#recherche {
+    width: 100%;
+    font-size: x-large;
+    border-radius: 10px;
+    border-color: chartreuse;
+    text-align: center;
+    background-color:white;
+    color: black;
+}
+
+

@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    width: 100%;
+}
+
+.slideInLeft1 {
+    -webkit-animation-name: slideInLeft1;
+    animation-name: slideInLeft1;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+@-webkit-keyframes slideInLeft1 {
+    0% {
+        -webkit-transform: translateX(-2000%);
+        transform: translateX(-2000%);
+        visibility: visible;
+    }
+    100% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
+@keyframes slideInLeft1 {
+    0% {
+        -webkit-transform: translateX(-2000%);
+        transform: translateX(-2000%);
+        visibility: visible;
+    }
+    100% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
+.slideInLeft2 {
+    -webkit-animation-name: slideInLeft2;
+    animation-name: slideInLeft2;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+@-webkit-keyframes slideInLeft2 {
+    0% {
+        -webkit-transform: translateX(-500%);
+        transform: translateX(-500%);
+        visibility: visible;
+    }
+    100% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
+@keyframes slideInLeft2 {
+    0% {
+        -webkit-transform: translateX(-500%);
+        transform: translateX(-500%);
+        visibility: visible;
+    }
+    100% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
+.slideInLeft3 {
+    -webkit-animation-name: slideInLeft3;
+    animation-name: slideInLeft3;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+@-webkit-keyframes slideInLeft3 {
+    0% {
+        -webkit-transform: translateX(-2500%);
+        transform: translateX(-2500%);
+        visibility: visible;
+    }
+    100% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
+@keyframes slideInLeft3 {
+    0% {
+        -webkit-transform: translateX(-2500%);
+        transform: translateX(-2500%);
+        visibility: visible;
+    }
+    100% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
