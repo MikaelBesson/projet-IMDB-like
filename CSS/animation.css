@@ -12,18 +12,18 @@ body {
     width: 100%;
 }
 
-.slideInLeft1 {
-    -webkit-animation-name: slideInLeft1;
-    animation-name: slideInLeft1;
+.slideInRight1 {
+    -webkit-animation-name: slideInRight1;
+    animation-name: slideInRight1;
     -webkit-animation-duration: 1s;
     animation-duration: 1s;
     -webkit-animation-fill-mode: both;
     animation-fill-mode: both;
 }
-@-webkit-keyframes slideInLeft1 {
+@-webkit-keyframes slideInRight1 {
     0% {
-        -webkit-transform: translateX(-2000%);
-        transform: translateX(-2000%);
+        -webkit-transform: translateX(2000%);
+        transform: translateX(2000%);
         visibility: visible;
     }
     100% {
@@ -31,10 +31,10 @@ body {
         transform: translateX(0);
     }
 }
-@keyframes slideInLeft1 {
+@keyframes slideInRight1 {
     0% {
-        -webkit-transform: translateX(-2000%);
-        transform: translateX(-2000%);
+        -webkit-transform: translateX(2000%);
+        transform: translateX(2000%);
         visibility: visible;
     }
     100% {
@@ -42,36 +42,21 @@ body {
         transform: translateX(0);
     }
 }
-.slideInLeft2 {
-    -webkit-animation-name: slideInLeft2;
-    animation-name: slideInLeft2;
-    -webkit-animation-duration: 1s;
-    animation-duration: 1s;
-    -webkit-animation-fill-mode: both;
-    animation-fill-mode: both;
+.fondu {
+    -webkit-animation-name: fondu;
+    animation-name: fondu;
+    -webkit-animation-duration: 5s;
+    animation-duration: 5s;
 }
-@-webkit-keyframes slideInLeft2 {
-    0% {
-        -webkit-transform: translateX(-500%);
-        transform: translateX(-500%);
-        visibility: visible;
+@-webkit-keyframes fondu {
+    from {
+       opacity: 0;
     }
-    100% {
-        -webkit-transform: translateX(0);
-        transform: translateX(0);
+    to {
+        opacity: 1;
     }
 }
-@keyframes slideInLeft2 {
-    0% {
-        -webkit-transform: translateX(-500%);
-        transform: translateX(-500%);
-        visibility: visible;
-    }
-    100% {
-        -webkit-transform: translateX(0);
-        transform: translateX(0);
-    }
-}
+
 .slideInLeft3 {
     -webkit-animation-name: slideInLeft3;
     animation-name: slideInLeft3;
