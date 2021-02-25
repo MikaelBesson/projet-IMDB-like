@@ -101,5 +101,13 @@ input {
     flex-direction: column;
     margin: 10px auto auto;
 }
+#blocSpan{
+    align-items: center;
+}
+span {
+    color: red;
+    font-size: x-large;
+
+}
 
 

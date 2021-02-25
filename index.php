@@ -10,19 +10,21 @@
     <script src="https://kit.fontawesome.com/940412168c.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="CSS/style.css">
     <link rel="stylesheet" href="CSS/animation.css">
+    <link rel="stylesheet" href="CSS/animation%20carousel.css">
+    <link rel="stylesheet" href="CSS/animationTexte.css">
     <title>index</title>
 </head>
 <body>
 <?php
     include "./pages/partials/header.php";
+    include "./pages/partials/bodyIndex.php";
 ?>
-    <div id="container">
 
-    </div>
+
+
     <footer>
 
     </footer>
-
 
 
 

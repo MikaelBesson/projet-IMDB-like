@@ -43,7 +43,8 @@ body {
 .slideInLeft3 {
     animation-name: slideInLeft3;
     animation-duration: 1s;
-    animation-fill-mode: both;
+
+
 }
 @keyframes slideInLeft3 {
     0% {
@@ -55,23 +56,71 @@ body {
     }
 }
 
+.slideInLeft3:hover {
+    background-color: black;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
 .slideInLeft3:hover ul a {
     animation-name: deroul;
     animation-duration: 2s;
+    animation-iteration-count: infinite;
 }
+
+.slideInRight1:hover {
+    animation-name: deroul;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+#recherche:hover {
+    animation-name: deroul;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
 @keyframes deroul {
    0% {
-       opacity: 0;
+       border-color: red;
+       color: red;
+
    }
     10% {
-        opacity: 0.2;
         color: chartreuse;
+        text-shadow: 0px 0px 19px red;
     }
     20% {
-        opacity: 0.4;
-        color: green;
+        color: red;
+    }
+    30% {
+        color: chartreuse;
+        text-shadow: 0px 0px 19px red;
+    }
+    40% {
+        border-color: red;
+        color: red;
+    }
+    50% {
+        color: chartreuse;
+        text-shadow: 0px 0px 19px red;
+    }
+    60% {
+        color: red;
+    }
+    70% {
+        color: chartreuse;
+        text-shadow: 0px 0px 19px red;
+    }
+    80% {
+        border-color: red;
+        color: red;
+    }
+    90% {
+        color: chartreuse;
+        text-shadow: 0px 0px 19px red;
     }
     100% {
-        opacity: 1;
+        color: red;
     }
 }

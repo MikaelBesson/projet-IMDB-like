@@ -5,10 +5,17 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://kit.fontawesome.com/940412168c.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="stylesheet" href="../CSS/animation.css">
+    <link rel="stylesheet" href="../CSS/animation%20carousel.css">
     <title>Formulaire D'inscription</title>
 </head>
+
 <body id="bodyForm">
+<?php
+include "./partials/header.php";
+?>
     <div id="formCont" >
         <h1>Formulaire D'inscription</h1>
         <form id="formulaire" action="" method="post">
@@ -21,6 +28,6 @@
             <input type="submit" value="Envoyer" name="user_submit">
         </form>
     </div>
-
+    <script src="JS/script.js"></script>
 </body>
 </html>
