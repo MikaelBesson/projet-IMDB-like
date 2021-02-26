@@ -18,6 +18,9 @@ body {
     width: 400px;
     height: 500px;
     margin-top: -467px;
+    text-align: center;
+    padding-left: 40px;
+
 }
 .texte-animated {
     animation-name: texte-animated;

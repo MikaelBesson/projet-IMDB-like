@@ -110,4 +110,13 @@ span {
 
 }
 
+p {
+    font-size: medium;
+    color: papayawhip;
+}
+
+.intro {
+    color: blue;
+}
+
 
