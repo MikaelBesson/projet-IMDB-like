@@ -5,57 +5,57 @@
 <div class="slideshow-container">
     <div class="mySlides animated">
         <div class="slide-number">1/11</div>
-        <img src="/images/01.laGuerreDesEtoiles.jpg">
+        <img src="./images/01.laGuerreDesEtoiles.jpg">
     </div>
 
     <div class="mySlides animated">
         <div class="slide-number">2/11</div>
-        <img src="/images/02.%20L'Empire%20contre-attaque.jpg">
+        <img src="./images/02.%20L'Empire%20contre-attaque.jpg">
     </div>
 
     <div class="mySlides animated">
         <div class="slide-number">3/11</div>
-        <img src="/images/03.Le%20Retour%20du%20Jedi.jpg">
+        <img src="./images/03.Le%20Retour%20du%20Jedi.jpg">
     </div>
 
     <div class="mySlides animated">
         <div class="slide-number">4/11</div>
-        <img src="/images/04.La%20Menace%20fantôme.jpg">
+        <img src="./images/04.La%20Menace%20fantôme.jpg">
     </div>
 
     <div class="mySlides animated">
         <div class="slide-number">5/11</div>
-        <img src="/images/05.L'Attaque%20des%20clones.jpg">
+        <img src="./images/05.L'Attaque%20des%20clones.jpg">
     </div>
 
     <div class="mySlides animated">
         <div class="slide-number">6/11</div>
-        <img src="/images/06.La%20Revanche%20des%20Sith.jpg">
+        <img src="./images/06.La%20Revanche%20des%20Sith.jpg">
     </div>
 
     <div class="mySlides animated">
         <div class="slide-number">7/11</div>
-        <img src="/images/07.Le%20Réveil%20de%20la%20Force.jpg">
+        <img src="./images/07.Le%20Réveil%20de%20la%20Force.jpg">
     </div>
 
     <div class="mySlides animated">
         <div class="slide-number">8/11</div>
-        <img src="/images/08.%20Les%20Derniers%20Jedi.jpg">
+        <img src="./images/08.%20Les%20Derniers%20Jedi.jpg">
     </div>
 
     <div class="mySlides animated">
         <div class="slide-number">9/11</div>
-        <img src="/images/09.L'Ascension%20de%20Skywalker.jpg">
+        <img src="./images/09.L'Ascension%20de%20Skywalker.jpg">
     </div>
 
     <div class="mySlides animated">
         <div class="slide-number">10/11</div>
-        <img src="/images/10.Rogue%20One.jpg">
+        <img src="./images/10.Rogue%20One.jpg">
     </div>
 
     <div class="mySlides animated">
         <div class="slide-number">11/11</div>
-        <img src="/images/11.Solo.jpg">
+        <img src="./images/11.Solo.jpg">
     </div>
 </div>
 
