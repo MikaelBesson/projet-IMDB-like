@@ -28,6 +28,5 @@ include "./partials/header.php";
             <input type="submit" value="Envoyer" name="user_submit">
         </form>
     </div>
-    <script src="JS/script.js"></script>
 </body>
 </html>
