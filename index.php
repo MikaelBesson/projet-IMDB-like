@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="CSS/animation.css">
     <link rel="stylesheet" href="CSS/animation%20carousel.css">
     <link rel="stylesheet" href="CSS/animationTexte.css">
-    <title>index</title>
+    <title>acceuil</title>
 </head>
 <body>
 <?php
